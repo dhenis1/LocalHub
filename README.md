@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/dhenis1/LocalHub/releases/tag/v0.2.0-preview.3"><strong>Download the preview</strong></a> &nbsp; · &nbsp;
+  <a href="https://github.com/dhenis1/LocalHub/releases/latest"><strong>Download the preview</strong></a> &nbsp; · &nbsp;
   <a href="#how-it-works">How it works</a> &nbsp; · &nbsp;
   <a href="#android">Android</a> &nbsp; · &nbsp;
   <a href="#tmdb-setup">TMDB setup</a>
@@ -22,10 +22,10 @@ LocalHub is **designed specifically to work with the [TMDB API](https://www.them
 | Platform | Current build | Download |
 | :--- | :--- | :--- |
 | **Windows x64** | 0.1.1 · EXE installer | [Download for Windows](https://github.com/dhenis1/LocalHub/releases/download/v0.2.0-preview.3/LocalHub_0.1.1_x64-setup.exe) |
-| **Android 9+** | 0.2.0-test.3 · APK | [Download for Android](https://github.com/dhenis1/LocalHub/releases/download/v0.2.0-preview.3/LocalHub-0.2.0-test.3.apk) |
+| **Android 9+** | 0.2.0-test.4 · APK | [Download for Android](https://github.com/dhenis1/LocalHub/releases/download/v0.2.0-preview.4/LocalHub-0.2.0-test.4.apk) |
 | **File verification** | SHA-256 checksums | [SHA256.txt](https://github.com/dhenis1/LocalHub/releases/download/v0.2.0-preview.3/SHA256.txt) |
 
-These are **experimental preview builds** of a personal, non-commercial project. Android is signed with a testing key and is debuggable. The Windows installer does not have a publisher code-signing certificate. [Read the release notes](https://github.com/dhenis1/LocalHub/releases/tag/v0.2.0-preview.3) before installing.
+These are **experimental preview builds** of a personal, non-commercial project. Android is signed with a testing key and is debuggable. The Windows installer does not have a publisher code-signing certificate. [Read the release notes](https://github.com/dhenis1/LocalHub/releases/latest) before installing.
 
 This repository contains the public presentation and screenshots. Installers are attached to Releases. **Application source code, private configuration, API credentials and media files are not published here.** GitHub's automatically generated “Source code” archives contain this public repository, not the application source.
 
@@ -69,6 +69,10 @@ Watch locally, resume from **Continue Watching**, or jump to the next linked epi
 ## Android
 
 The mobile app keeps the same visual identity while adapting the controls to touch. The interface uses **edge-to-edge** layouts, and playback **opens in landscape**. During playback, controls hide after inactivity and return when you tap. Tapping an episode, audio/subtitle, volume or information button again closes its panel.
+
+**New in Android test.4:** a vertical brightness slider on the left, pinch-to-zoom from 1× to 4×, and improved picture fitting with conservative detection of encoded black bars. Pinch inward to return to 1×. Controls and subtitles retain their normal size; brightness changes apply only to the player window.
+
+[Android test.4 checksum](https://github.com/dhenis1/LocalHub/releases/download/v0.2.0-preview.4/SHA256-Android-test.4.txt).
 
 <p align="center">
   <img src="android-home.png" alt="LocalHub Android home and Continue Watching" width="44%" /> &nbsp;
